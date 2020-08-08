@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif, Arial, Helvetica;
+    overflow-x: hidden;
+    &.active {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+.underline {
+    text-decoration: underline
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}

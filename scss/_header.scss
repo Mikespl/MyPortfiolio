@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    padding: 5px;
+    background-color: #242e6c;
+    color: white;
+    transition: .2s linear;
+    border-bottom: 5px solid #fff;
+    h1 {
+        line-height: 50px;
+    }
+    &:hover {
+        color: lightgreen;
+    }
+}
