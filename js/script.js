@@ -18,17 +18,33 @@ burger.addEventListener('click', () => {
 })
 
 listHome.addEventListener('click', () => {
+    burger.classList.remove('active');
+    nav.classList.remove('active');
+    document.body.classList.remove('active')
     headerHome.scrollIntoView({ behavior: 'smooth', })
+
 })
 listMe.addEventListener('click', () => {
+    burger.classList.remove('active');
+    nav.classList.remove('active');
+    document.body.classList.remove('active')
     headerMe.scrollIntoView({ behavior: 'smooth', });
 })
 listTechno.addEventListener('click', () => {
+    burger.classList.remove('active');
+    nav.classList.remove('active');
+    document.body.classList.remove('active')
     headerTechno.scrollIntoView({ behavior: 'smooth', });
 })
 listProject.addEventListener('click', () => {
+    burger.classList.remove('active');
+    nav.classList.remove('active');
+    document.body.classList.remove('active')
     headerProject.scrollIntoView({ behavior: 'smooth', });
 })
 listContact.addEventListener('click', () => {
+    burger.classList.remove('active');
+    nav.classList.remove('active');
+    document.body.classList.remove('active')
     headerContact.scrollIntoView({ behavior: 'smooth', });
 })
