@@ -15,9 +15,8 @@ nav {
     font-size: 25px;
     z-index: 2;
     @media (min-width: 750px) {
-        position: sticky;
+        position: relative;
         background-color: #242e6c;
-        top: 0;
         font-size: 16px;
         height: 15vh;
         line-height: 100%;
