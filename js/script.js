@@ -10,7 +10,8 @@ const headerMe = document.querySelector('.main__header--me');
 const headerTechno = document.querySelector('.main__header--techno')
 const headerProject = document.querySelector('.main__header--project')
 const headerContact = document.querySelector('.main__header--contact')
-
+const scroller = document.querySelector('.scrollTop')
+const header = document.querySelector('header')
 burger.addEventListener('click', () => {
     burger.classList.toggle('active')
     nav.classList.toggle('active')
@@ -48,3 +49,8 @@ listContact.addEventListener('click', () => {
     document.body.classList.remove('active')
     headerContact.scrollIntoView({ behavior: 'smooth', });
 })
+
+
+scroller.addEventListener('click', () => {
+    header.scrollIntoView({ behavior: 'smooth', })
+});

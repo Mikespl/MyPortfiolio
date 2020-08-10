@@ -1,0 +1,24 @@
+.scrollTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border: none;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .2s linear;
+    i {
+        font-size: 35px;
+    }
+    &:hover {
+        color: black;
+        background-color: #fff;
+    }
+}
