@@ -59,6 +59,15 @@
                 &__paragraph {
                     font-weight: bold;
                 }
+                ul {
+                    li {
+                        margin: 7.5px 0;
+                        font-weight: bold;
+                        &:last-of-type {
+                            margin: 0;
+                        }
+                    }
+                }
                 &__section {
                     margin: 20px;
                     &--techno {
