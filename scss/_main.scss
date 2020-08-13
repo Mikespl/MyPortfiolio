@@ -131,6 +131,12 @@
                                 position: absolute;
                                 bottom: 0;
                             }
+                            &.rwd {
+                                img {
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
                         }
                     }
                     &--project {
