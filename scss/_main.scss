@@ -3,11 +3,11 @@
                 padding: 10px;
                 &--home {
                     color: white;
-                    background: url(../img//FirstBackground.jpg) no-repeat top fixed;
+                    background: url(../img//FirstBackground.webp) no-repeat top fixed;
                     background-size: cover;
                 }
                 &--me {
-                    background: url(../img//SecondBackground.jpg) no-repeat top fixed;
+                    background: url(../img//SecondBackground.webp) no-repeat top fixed;
                     background-size: cover;
                     color: rgb(255, 255, 255);
                     a {
@@ -15,16 +15,16 @@
                     }
                 }
                 &--techno {
-                    background: url(../img//thirdBackground.jpg) no-repeat top fixed;
+                    background: url(../img//thirdBackground.webp) no-repeat top fixed;
                     background-size: cover;
                 }
                 &--project {
-                    background: url(../img//fourthBackground.jpg) no-repeat top fixed;
+                    background: url(../img//fourthBackground.webp) no-repeat top fixed;
                     background-size: cover;
                     color: white;
                 }
                 &--contact {
-                    background: url(../img//fifthBackground.jpg) no-repeat top fixed;
+                    background: url(../img//fifthBackground.webp) no-repeat top fixed;
                     background-size: cover;
                     color: white;
                 }
