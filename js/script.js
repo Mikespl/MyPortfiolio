@@ -2,9 +2,9 @@ const burger = document.querySelector('.burger')
 const nav = document.querySelector('nav')
 const listHome = document.querySelector('.list-home')
 const listMe = document.querySelector('.list-me')
-const listTechno = document.querySelector('.list-techno')
+const listTechno = document.querySelectorAll('.list-techno')
 const listProject = document.querySelector('.list-project')
-const listContact = document.querySelector('.list-contact')
+const listContact = document.querySelectorAll('.list-contact')
 const headerHome = document.querySelector('.main__header--home');
 const headerMe = document.querySelector('.main__header--me');
 const headerTechno = document.querySelector('.main__header--techno')
@@ -31,24 +31,30 @@ listMe.addEventListener('click', () => {
     document.body.classList.remove('active')
     headerMe.scrollIntoView({ behavior: 'smooth', });
 })
-listTechno.addEventListener('click', () => {
-    burger.classList.remove('active');
-    nav.classList.remove('active');
-    document.body.classList.remove('active')
-    headerTechno.scrollIntoView({ behavior: 'smooth', });
-})
+listTechno.forEach(el => {
+    el.addEventListener('click', () => {
+        burger.classList.remove('active');
+        nav.classList.remove('active');
+        document.body.classList.remove('active');
+        headerTechno.scrollIntoView({ behavior: 'smooth', });
+    })
+});
+
 listProject.addEventListener('click', () => {
     burger.classList.remove('active');
     nav.classList.remove('active');
     document.body.classList.remove('active')
     headerProject.scrollIntoView({ behavior: 'smooth', });
 })
-listContact.addEventListener('click', () => {
-    burger.classList.remove('active');
-    nav.classList.remove('active');
-    document.body.classList.remove('active')
-    headerContact.scrollIntoView({ behavior: 'smooth', });
-})
+listContact.forEach(el => {
+    el.addEventListener('click', () => {
+        burger.classList.remove('active');
+        nav.classList.remove('active');
+        document.body.classList.remove('active');
+        headerContact.scrollIntoView({ behavior: 'smooth', });
+    })
+});
+
 
 
 scroller.addEventListener('click', () => {

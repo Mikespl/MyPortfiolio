@@ -194,15 +194,18 @@
                             color: rgba(255, 255, 255, 0.959);
                         }
                         a {
+                            position: relative;
                             margin-top: 10px;
                             background-color: white;
                             border: 4px solid black;
+                            border-radius: 15px;
                             margin: 15px 30px;
                             padding: 10px;
-                            transition: .2s linear;
+                            transition: .3s linear;
                             &:hover {
-                                background-color: #000;
                                 color: white;
+                                background-color: #000;
+                                border-color: white;
                             }
                         }
                         h5 {

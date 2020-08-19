@@ -21,8 +21,12 @@ body {
     }
 }
 
+span.underline {
+    cursor: pointer;
+}
+
 .underline {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 a {
