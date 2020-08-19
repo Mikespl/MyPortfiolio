@@ -34,6 +34,7 @@
                 padding: 10px;
                 font-size: 1.6em;
                 color: white;
+                transition: .3s linear;
                 &--home {
                     background-color: #000;
                 }
@@ -48,6 +49,9 @@
                 }
                 &--contact {
                     background-color: darkorange;
+                }
+                &:hover {
+                    text-shadow: 2px 4px 1.5px rgb(0, 255, 255);
                 }
             }
             .article {
