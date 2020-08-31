@@ -37,32 +37,42 @@
 </head>
 
 <body>
-    <header>
+    <header class="header" id="header">
         <h1>
             <i class="fa fa-arrow-right" aria-hidden="false"></i> Portfolio <i class="fa fa-arrow-left" aria-hidden="false"></i></h1>
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
             <li class="list-home">
+                <a href="#header-start">
                 Start
+                </a>
             </li>
             <li class="list-me">
+                <a href="#header-me">
                 O Mnie
+                </a>
             </li>
             <li class="list-techno">
+                <a href="#header-technology">
                 Technologie
+                </a>
             </li>
             <li class="list-project">
+                <a href="#header-project">
                 Projekty
+                </a>
             </li>
             <li class="list-contact">
+                <a href="#header-contact">
                 Kontakt
+                </a>
             </li>
         </ul>
     </nav>
     <div class="burger"></div>
     <main class="main">
-        <h2 class="main__header main__header--home">Start</h2>
+        <h2 class="main__header main__header--home" id="header-start">Start</h2>
         <article class="main__article main__article--home article">
             <section class="article__section">
                 <h3 class="article__header">Witaj na mojej Stronie!</h3>
@@ -84,78 +94,79 @@
             </section>
             <section class="article__section">
                 <h3 class="article__header">Ocena Strony</h3>
-                <p class="article__paragraph">Jak chcesz ocenić lub podzielić się odczuciami podczas korzystania z tej strony skontaktuj się ze mną <span class="underline list-contact">możliwości kontaktu na samym dole strony</span></p>
+                <p class="article__paragraph">Jak chcesz ocenić lub podzielić się odczuciami podczas korzystania z tej strony skontaktuj się ze mną
+                    <a href="#header-contact">możliwości kontaktu na samym dole strony</a></p>
             </section>
         </article>
-        <h2 class="main__header main__header--me">O Mnie</h2>
-        <article class="main__article main__article--me article">
-            <section class="article__section">
-                <h3 class="article__header">Kim Jestem</h3>
-                <p class="article__paragraph">Jestem początkującym programistą, gdyż naukę zacząłem około 4 miesiące temu.</p>
-                <p class="article__paragraph">Przez ten czas zdobyłem wystarczające umiejętności umożliwiające robienie bardziej lub mniej "profesjonalnych" responsywnych stron internetowych zazwyczaj robionych przy użyciu technologii frontendowych. <span class="underline list-techno">Więcej o technologiach poniżej</span></p>
+        <h2 class="main__header main__header--me " id="header-me">O Mnie</h2>
+        <article class="main__article main__article--me article ">
+            <section class="article__section ">
+                <h3 class="article__header ">Kim Jestem</h3>
+                <p class="article__paragraph ">Jestem początkującym programistą, gdyż naukę zacząłem około 4 miesiące temu.</p>
+                <p class="article__paragraph ">Przez ten czas zdobyłem wystarczające umiejętności umożliwiające robienie bardziej lub mniej "profesjonalnych " responsywnych stron internetowych zazwyczaj robionych przy użyciu technologii frontendowych. <a href="#header-technology">Więcej o technologiach poniżej</a></p>
             </section>
-            <section class="article__section">
-                <h3 class="article__header">Edukacja</h3>
-                <p class="article__paragraph">Aktualnie uczęszczam do klasy 7 z dwujęzyczną biologią i chemią i rozszerzoną matematyką a potem zamierzam iść do liceum dwujęzycznego, ponieważ wiem że to mi się przyda w życiu bez względu co będę potem robił</p>
+            <section class="article__section ">
+                <h3 class="article__header ">Edukacja</h3>
+                <p class="article__paragraph ">Aktualnie uczęszczam do klasy 7 z dwujęzyczną biologią i chemią i rozszerzoną matematyką a potem zamierzam iść do liceum dwujęzycznego, ponieważ wiem że to mi się przyda w życiu bez względu co będę potem robił</p>
             </section>
-            <section class="article__section">
-                <h3 class="article__header">Zainteresowania</h3>
-                <p class="article__paragraph">Interesuję się wieloma rzeczami ale głównie programowaniem i właśnie na to poświęcam ostatnio najwięcej czasu i efektem jest ta strona i inne.
-                    <a class="underline" href="https://github.com/Mikespl" target="_blank" rel="noopener noreferrer">Wszystkie moje projekty będą na  githubie</a></p>
+            <section class="article__section ">
+                <h3 class="article__header ">Zainteresowania</h3>
+                <p class="article__paragraph ">Interesuję się wieloma rzeczami ale głównie programowaniem i właśnie na to poświęcam ostatnio najwięcej czasu i efektem jest ta strona i inne.
+                    <a class="underline " href="https://github.com/Mikespl " target="_blank " rel="noopener noreferrer ">Wszystkie moje projekty będą na  githubie</a></p>
             </section>
         </article>
-        <h2 class="main__header main__header--techno">Technologie</h2>
-        <article class="main__article main__article--techno article">
-            <section class="article__section article__section--techno">
-                <div class="tile-techno">
-                    <img class="tile-techno__image" src="img/html.webp">
+        <h2 class="main__header main__header--techno " id="header-technology">Technologie</h2>
+        <article class="main__article main__article--techno article ">
+            <section class="article__section article__section--techno ">
+                <div class="tile-techno ">
+                    <img class="tile-techno__image " src="img/html.webp ">
                     <h4>Html</h4>
                 </div>
-                <div class="tile-techno">
-                    <img class="tile-techno__image" src="img/css.webp" alt="logo Cssa">
+                <div class="tile-techno ">
+                    <img class="tile-techno__image " src="img/css.webp " alt="logo Cssa ">
                     <h4>CSS</h4>
                 </div>
-                <div class="tile-techno">
-                    <img class="tile-techno__image" src="img/sass.webp" alt="logo Scssa">
+                <div class="tile-techno ">
+                    <img class="tile-techno__image " src="img/sass.webp " alt="logo Scssa ">
                     <h4>Scss</h4>
                 </div>
 
-                <div class="tile-techno">
-                    <img class="tile-techno__image" src="img/javaScript.webp" alt="logo JavaScriptu">
+                <div class="tile-techno ">
+                    <img class="tile-techno__image " src="img/javaScript.webp " alt="logo JavaScriptu ">
                     <h4>JavaScript</h4>
                 </div>
-                <div class="tile-techno rwd">
-                    <img class="tile-techno__image" src="./img/Rwd.webp" alt="logo Rwd">
+                <div class="tile-techno rwd ">
+                    <img class="tile-techno__image " src="./img/Rwd.webp " alt="logo Rwd ">
                     <h4>Rwd</h4>
                 </div>
                 <div class="tile-techno ">
-                    <img class="tile-techno__image" src="img/git.webp" alt="logo Gita">
+                    <img class="tile-techno__image " src="img/git.webp " alt="logo Gita ">
                     <h4>Git</h4>
                 </div>
             </section>
         </article>
-        <h2 class="main__header main__header--project ">Projekty</h2>
+        <h2 class="main__header main__header--project " id="header-project">Projekty</h2>
         <article class="main__article main__article--project article ">
             <section class="article__section article__section--project ">
                 <p class="article__paragraph underline ">tu będą znajdować się moje projekty z opisem technologii, które używałem:</p>
                 <div class="tile-project ">
-                    <img src="img/webPage.webp" alt="Projekt ">
+                    <img src="img/webPage.webp " alt="Projekt ">
                     <h4>Nazwa Projektu</h4>
                     <p>Opis technologi używanych w projekcie</p>
                 </div>
                 <div class="tile-project ">
-                    <img src="img/webPage.webp" alt="Projekt ">
+                    <img src="img/webPage.webp " alt="Projekt ">
                     <h4>Nazwa Projektu</h4>
                     <p>Opis technologi używanych w projekcie</p>
                 </div>
                 <div class="tile-project ">
-                    <img src="img/webPage.webp" alt="Projekt ">
+                    <img src="img/webPage.webp " alt="Projekt ">
                     <h4>Nazwa Projektu</h4>
                     <p>Opis technologi używanych w projekcie</p>
                 </div>
             </section>
         </article>
-        <h2 class="main__header main__header--contact ">Kontakt ze mną</h2>
+        <h2 class="main__header main__header--contact " id="header-contact">Kontakt ze mną</h2>
         <article class="main__article main__article--contact article ">
             <section class="article__section article__section--contact ">
                 <p class="article__paragraph ">Jak chcesz się skontaktować to:</p>
@@ -165,9 +176,10 @@
             </section>
         </article>
     </main>
-    <div class="scrollTop "><i class="fa fa-arrow-up " aria-hidden="false"></i></div>
-    <footer>Mikołaj Łotysz &copy; 2020 | mikolaj.lot@gmail.com</footer>
-    <script src="./js/script.min.js"></script>
+    <div class="scrollTop ">
+        <a href="#header "><i class="fa fa-arrow-up " aria-hidden="false "></i></a></div>
+    <footer class="footer ">Mikołaj Łotysz &copy; 2020 | mikolaj.lot@gmail.com</footer>
+    <script src="./js/script.min.js "></script>
 </body>
 
 </html>
